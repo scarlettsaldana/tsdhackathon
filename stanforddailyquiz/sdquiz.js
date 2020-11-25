@@ -52,10 +52,23 @@ scores = [{index:0, feedback: "<q>Stanford professors join Biden-Harris transiti
 {index:4, feedback: "<q>Among Us, Minecraft and Animal Crossing: Video gaming during quarantine</q>"},
 {index:5, feedback: "<q>16 male <i>Bachelorette</i> contestants forced to date each other after Clare Crawley&#146s surprise departure</q>"}];
 
+for (i=0; i<scores.length; i++) {
+	var element = document.getElementById("photo" + String(1 + i));
+	if (element !== null) {
+		element.style.display = "none";
+	}
+}
 
 for(i=0;i<scores.length; i++) {
 if(highest == scores[i].index) {
-document.getElementById("answer6").innerHTML = scores[i].feedback;
+var element1 = document.getElementById("answer6");
+if (element1 !== null) {
+	element1.innerHTML = scores[i].feedback;
+}
+var element2 = document.getElementById("photo" + String(1 + highest));
+if (element2 !== null) {
+	element2.style.display = "block";
+}
 }
 }
 
