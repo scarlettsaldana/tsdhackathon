@@ -1,11 +1,11 @@
 #outside {
-    width: 90%;
-    border: 35px rgb(120, 22, 22) solid;
+    width: 95%;
+    border: 40px rgb(120, 22, 22) solid;
     margin: auto;
     padding: 10px;
     background-color: #ffffff;    
     border-radius: 10px;
-    height: 1100px;
+    height: 1300px;
 }
 
 header {
@@ -219,7 +219,7 @@ button {
     text-align: center;
 }
 
-#button, .tap {
+#button {
     background-color: #9e3320; 
     border-radius: 10px;
     color: white;
@@ -233,62 +233,74 @@ button {
 }
 
 #answer {
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 240%;
     text-align: center;
 
 }
 
 #answer2 {
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 240%; 
     text-align: center;
 }
 
 #answer3 {
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 240%;
     text-align: center;
 }
 
 #answer4 {
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 240%;
     text-align: center;
 }
 
 #answer5 {
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 240%;
     text-align: center;
 }
 
 #answer6 {
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 240%;
+    text-align: center;
+}
+
+#answer7 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 240%;
     text-align: center;
 }
 
 #photo1{
     display: none;
+    float: left;
 }
 
 #photo2 {
     display: none;
+    float: left;
 }
 
 #photo3 {
     display: none;
+    float: left;
 }
 
 #photo4 {
     display: none;
+    float: left;
 }
 
 #photo5{
     display: none;
+    float: left;
 }
 
 #photo6{
     display: none;
+    float: left;
 } 

@@ -45,17 +45,30 @@ document.getElementById("form").onsubmit=function() {
 	}
 
 
-scores = [{index:0, feedback: "<q>Stanford professors join Biden-Harris transition team </q>"},
-{index:1, feedback: "<q>The Daily&#146s Football Season Predictions</q>"},
-{index:2, feedback: "<q>On policing at Stanford</q>"},
-{index:3, feedback: "<q>Female madness, decapitation and cults in <i>Hereditary</i></q>"},
-{index:4, feedback: "<q>Among Us, Minecraft and Animal Crossing: Video gaming during quarantine</q>"},
-{index:5, feedback: "<q>16 male <i>Bachelorette</i> contestants forced to date each other after Clare Crawley&#146s surprise departure</q>"}];
+scores = [{index:0, feedback: "<q>Stanford professors join Biden-Harris transition team</q><br><b>By Jessica Zhu and Cameron Ehsan on November 14, 2020<b><br><br><br><em>click the photo on the left to read the article! enjoy!<em>"},
+{index:1, feedback: "<q>The Daily&#146s Football Season Predictions</q><br><b>By Cybele Zhang, Michael Espinosa, Daniel Wu and Jeremy Rubin on November 7, 2020<b><br><br><br><em>click the photo on the left to read the article! enjoy!<em>"},
+{index:2, feedback: "<q>On policing at Stanford</q><br><b>By Op-Ed on November 11, 2020<b><br><br><br><em>click the photo on the left to read the article! enjoy!<em>"},
+{index:3, feedback: "<q>Female madness, decapitation and cults in <i>Hereditary</i></q><br><b>By Emma K Wang on November 11, 2020<b><br><br><br><em>click the photo on the left to read the article! enjoy!<em>"},
+{index:4, feedback: "<q>Among Us, Minecraft and Animal Crossing: Video gaming during quarantine</q><br><b>By Iliana Garner on November 12, 2020<b><br><br><br><em>click the photo on the left to read the article! enjoy!<em>"},
+{index:5, feedback: "<q>16 male <i>Bachelorette</i> contestants forced to date each other after Clare Crawley&#146s surprise departure</q><br><b>Satire by Charlie Kogen on November 8, 2020<b><br><br><br><em>click the photo on the left to read the article! enjoy!<em>"}];
 
+for (i=0; i<scores.length; i++) {
+	var element = document.getElementById("photo" + String(1 + i));
+	if (element !== null) {
+		element.style.display = "none";
+	}
+}
 
 for(i=0;i<scores.length; i++) {
 if(highest == scores[i].index) {
-document.getElementById("answer6").innerHTML = scores[i].feedback;
+var element1 = document.getElementById("answer7");
+if (element1 !== null) {
+	element1.innerHTML = scores[i].feedback;
+}
+var element2 = document.getElementById("photo" + String(1 + highest));
+if (element2 !== null) {
+	element2.style.display = "block";
+}
 }
 }
 
