@@ -1,1 +1,84 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head id="head">
+<title>Quiz: What Stanford Daily Article Should You Read Next?</title>
+<link rel="stylesheet" href="sdquiz.css">
+
+</head>
+<body>
+<div id="outside">
+<div id="header"><h1 id="top">What <img id="img1" src="https://raw.githubusercontent.com/TheStanfordDaily/stanforddaily-graphic-assets/main/DailyLogo/DailyLogo.png"
+width="300" height="35" alt="The Stanford Daily logo"> Article Should You Read Next?</h1></div>
+
+
+<form  id="form">
+<p id="title1">What content category are you in the mood to read?</p>
+<label id="news"><input type="radio" name="category" id="news" value="BidenHarris" />News</label>
+<label id="sports"><input type="radio" name="category" id="sports" value="SPredictions" />Sports</label>
+<label id="arts"><input type="radio" name="category" id="arts" value="Hereditary" />Arts & Life</label>
+<br>
+<label id="ops"><input type="radio" name="category" id="ops" value="Policing" />Opinions</label>
+<label id="satire"><input type="radio" name="category" id="satire" value="Bachelorette" />Satire</label>
+<label id="grind"><input type="radio" name="category" id="grind" value="Videogaming" />The Grind</label>
+
+<p id="title2">Pick an article topic:</p>
+<label id="abolition"><input type="radio"  name="topic" id="abolition" value="Policing" />Activism</label>
+<label id="movie"><input type="radio"  name="topic" id="movie" value="Hereditary" />Movie review</label>
+<label id="gaming"><input type="radio"  name="topic" id="gaming" value="Videogaming" />Gaming</label>
+<br>
+<label id="BH"><input type="radio" name="topic" id="politics" value="Biden-Harris" />Politics</label>
+<label id="entertainment"><input type="radio"  name="topic" id="entertainment" value="Bachelorette" />The &#145Bachelorette&#146</label>
+<label id="predictions"><input type="radio" name="topic" id="predictions" value="SPredictions" />Sports Predictions</label>
+
+
+<p id="title3">Pick an activity that appeals to you <strong><u>right now</u></strong>:</p>
+<label id="protest"><input type="radio"  name="spare" id="protest" value="Policing" />Effectively protest</label>
+<label id="espn"><input type="radio" name="spare" id="espn" value="SPredictions" />Watch ESPN</label>
+<label id="watch"><input type="radio"  name="spare" id="watch" value="Hereditary" />Watching a movie</label>
+<br>
+<label id="play"><input type="radio"  name="spare" id="play" value="Videogaming" />Playing video games with friends</label>
+<label id="comedy"><input type="radio"  name="spare" id="comedy" value="Bachelorette" />Read/watch comedy</label>
+<label id="keepup"><input type="radio" name="spare" id="keepup" value="Biden-Harris" />Keep up with National Events</label>
+<br>
+
+<button id="button" type="submit" value="Submit">You should read...</button>
+</form>
+
+<p id="answer">
+   <a href="https://www.stanforddaily.com/2020/11/14/stanford-professors-join-biden-harris-transition-team/">
+   <img id="photo1" alt="Combo of White House and Stanford Campus" src="https://wp.stanforddaily.com/wp-content/uploads/2020/11/image.png" width="420" height="350">
+   </a>
+</p>
+<p id="answer2">
+   <a href="https://www.stanforddaily.com/2020/11/07/the-dailys-football-season-predictions/">
+   <img id="photo2" alt="David Shaw, Stanford's football head coach and the rest of Cardinal" src="https://wp.stanforddaily.com/wp-content/uploads/2020/09/Run-Out_JT_083119_193-scaled.jpg" width="420" height="350">
+   </a>
+</p>
+<p id="answer3">
+   <a href="https://www.stanforddaily.com/2020/11/11/on-policing-at-stanford/">
+      <img id="photo3" alt="'Abolish Stanford' Poster" src="https://wp.stanforddaily.com/wp-content/uploads/2020/11/NOV-9-13-WEEK-OF-ACTION-1.png" width="420" height="360">
+   </a>
+</p>
+<p id="answer4">
+   <a href="https://www.stanforddaily.com/2020/11/11/female-madness-decapitation-and-cults-in-hereditary/">
+      <img id="photo4" alt="Cast of Hereditary" src="https://wp.stanforddaily.com/wp-content/uploads/2020/11/hereditary.jpg" width="420" height="350">
+   </a>
+</p>
+<p id="answer5">
+   <a href="https://www.stanforddaily.com/2020/11/12/among-us-minecraft-and-animal-crossing-video-gaming-during-quarantine/">
+      <img id="photo5" alt="Intersection of real life and Animal Crossing" src="https://wp.stanforddaily.com/wp-content/uploads/2020/11/Screen-Shot-2020-11-12-at-8.43.45-PM.png" width="420" height="350">
+   </a>
+</p>
+<p id="answer6">
+   <a href="https://www.stanforddaily.com/2020/11/08/16-male-bachelorette-contestants-forced-to-date-each-other-after-clare-crawleys-surprise-departure/">
+      <img id="photo6" alt="Dale Moss talking" src="https://wp.stanforddaily.com/wp-content/uploads/2020/11/Dale-Moss-Charles-Sinatra-Kogen.jpg" width="420" height="350">
+   </a>
+</p>
+<p id="answer7"></p>
+
+</div>
+
+<script src="sdquiz.js"></script>
+
+</body>
+</html>
